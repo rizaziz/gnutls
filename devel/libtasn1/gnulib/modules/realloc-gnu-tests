@@ -1,0 +1,11 @@
+Files:
+tests/test-realloc-gnu.c
+
+Depends-on:
+stdint
+
+configure.ac:
+
+Makefile.am:
+TESTS += test-realloc-gnu
+check_PROGRAMS += test-realloc-gnu
